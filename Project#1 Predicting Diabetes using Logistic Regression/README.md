@@ -37,11 +37,11 @@ Predicting Diabetes is a project that aims to predict the likelihood of a patien
 
 Throughout this project, the following specific skills were highlighted and implemented:
 
-Data preprocessing: The dataset was carefully cleaned and processed to handle missing values and outliers.
-Feature selection: A comprehensive analysis was performed to identify the most relevant features for the prediction task.
-Model training: Logistic regression, a commonly used classification algorithm, was implemented to train the predictive model.
-Model evaluation: Various evaluation metrics such as accuracy, precision, recall, and F1-score were utilized to assess the model's performance.
-Data visualization: Heatmaps and graphs were generated to visualize the correlations and patterns present in the data.
+*   Data preprocessing: The dataset was carefully cleaned and processed to handle missing values and outliers.
+*   Feature selection: A comprehensive analysis was performed to identify the most relevant features for the prediction task.
+*   Model training: Logistic regression, a commonly used classification algorithm, was implemented to train the predictive model.
+*   Model evaluation: Various evaluation metrics such as accuracy, precision, recall, and F1-score were utilized to assess the model's performance.
+*   Data visualization: Heatmaps and graphs were generated to visualize the correlations and patterns present in the data.
 
 ## Conclusions
 
