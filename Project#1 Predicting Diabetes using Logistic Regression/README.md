@@ -2,7 +2,7 @@
 
 ## Overview
 
-Pred_Diabetes is a project that aims to predict the likelihood of a patient having diabetes based on certain diagnostic measurements. The dataset used in this project is the "National Institute of Diabetes and Digestive and Kidney Diseases" dataset, which contains information about 768 patients. By utilizing machine learning algorithms, specifically logistic regression, the project aims to provide accurate predictions and insights for early diagnosis and prevention of diabetes.
+Predicting Diabetes is a project that aims to predict the likelihood of a patient having diabetes based on certain diagnostic measurements. The dataset used in this project is the "National Institute of Diabetes and Digestive and Kidney Diseases" dataset, which contains information about 768 patients. By utilizing machine learning algorithms, specifically logistic regression, the project aims to provide accurate predictions and insights for early diagnosis and prevention of diabetes.
 
 ## Project Members
 
@@ -33,6 +33,20 @@ Pred_Diabetes is a project that aims to predict the likelihood of a patient havi
 5.  You can modify the code and experiment with different techniques to enhance the model's performance.
 6.  The results and evaluation metrics will be displayed in the notebook output.
 
+## Specific Skills Highlighted
+
+Throughout this project, the following specific skills were highlighted and implemented:
+
+Data preprocessing: The dataset was carefully cleaned and processed to handle missing values and outliers.
+Feature selection: A comprehensive analysis was performed to identify the most relevant features for the prediction task.
+Model training: Logistic regression, a commonly used classification algorithm, was implemented to train the predictive model.
+Model evaluation: Various evaluation metrics such as accuracy, precision, recall, and F1-score were utilized to assess the model's performance.
+Data visualization: Heatmaps and graphs were generated to visualize the correlations and patterns present in the data.
+
+## Conclusions
+
+Based on the analysis and experiments conducted in this project, the logistic regression model demonstrated promising results in predicting diabetes using the provided dataset. Several important features, such as glucose levels, age, BMI, and number of pregnancies, were found to have a significant correlation with the outcome variable. The accuracy achieved by the model was analyzed using a confusion matrix.
+
 ## Further Enhancements
 
 *   Explore additional machine learning algorithms for comparison and validation of the results.
@@ -44,4 +58,4 @@ Pred_Diabetes is a project that aims to predict the likelihood of a patient havi
 
 This project is licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-Feel free to reach out to any of the project members mentioned above for any queries or suggestions.
+Feel free to reach out to any of the project members mentioned above with any queries or suggestions.
