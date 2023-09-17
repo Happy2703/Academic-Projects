@@ -1,7 +1,7 @@
 # Advanced Customer Analytics: Segmentation, Customer Churn, and Predictive Marketing Model
 
 ## Introduction
-In the competitive retail industry, enhancing customer engagement and retention is crucial for businesses to drive revenue growth and bolster customer loyalty. By leveraging advanced customer analytics, including segmentation, churn prediction, and predictive marketing models, retail companies can pinpoint high-risk customers, comprehend their specific needs and preferences, and devise targeted retention strategies to mitigate churn. Through predictive modeling, businesses can accurately anticipate customer responses to future marketing campaigns, thereby enhancing overall customer engagement and loyalty.
+Enhancing customer engagement and retention in the competitive retail industry is crucial for businesses to drive revenue growth and bolster customer loyalty. By leveraging advanced customer analytics, including segmentation, churn prediction, and predictive marketing models, retail companies can pinpoint high-risk customers, comprehend their specific needs and preferences, and devise targeted retention strategies to mitigate churn. Through predictive modeling, businesses can accurately anticipate customer responses to future marketing campaigns, thereby enhancing overall customer engagement and loyalty.
 
 ## Research Questions
 - How can we segment customers based on their demographic, socioeconomic, and purchasing behavior attributes?
@@ -9,18 +9,19 @@ In the competitive retail industry, enhancing customer engagement and retention 
 - How can we predict the response of future marketing campaigns?
 
 ## Dependencies
-
-pandas
-numpy
-matplotlib
-seaborn
-sklearn
+* pandas
+* NumPy
+* matplotlib
+* seaborn
+* sklearn
+* imbalanced-learn
+* xgboost
 
 ## Data Exploration
 
 ### Exploratory Data Analysis
 - Key determinants of customer spending include income, education level, marital status, and segmentation based on demographics and behavior.
-- The average spending range was found to be $0-200 per product.
+- The average spending range was $0-200 per product.
 
 ## Models and Results
 
@@ -29,7 +30,7 @@ sklearn
 - Constructed two K-means Models: one using "Income" and "Total Amount Spent" features, and another using "Age", "Income", and "Total Amount Spent".
 
 ### Segmentation and Customer Churn
-- RFM analysis was employed to identify customer segments based on Recency, Frequency, and Monetary value, resulting in 9 distinct segments.
+- RFM analysis was employed to identify customer segments based on Recency, Frequency, and Monetary value, resulting in 9 distinct parts.
 - Logistic regression was used for churn prediction, identifying high-risk segments like "at_Risk" with a predicted churn rate of 60%.
 - By integrating RFM analysis and logistic regression, targeted retention strategies can be designed for high-risk segments, enhancing customer retention and reducing churn.
 
