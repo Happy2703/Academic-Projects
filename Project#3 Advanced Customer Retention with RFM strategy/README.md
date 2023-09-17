@@ -10,7 +10,11 @@ In the competitive retail industry, enhancing customer engagement and retention 
 
 ## Dependencies
 
-
+pandas
+numpy
+matplotlib
+seaborn
+sklearn
 
 ## Data Exploration
 
