@@ -47,11 +47,11 @@ To manage the big dataset and ensure efficient processing, we utilized the AWS i
 This pipeline ensured that the data processing was scalable, fault-tolerant, and efficient.
 
 ## Methodology
-**1. Data Cleaning:** The dataset was cleaned to remove any null values and outliers.
-**2. Exploratory Data Analysis (EDA):** EDA was performed to understand the distribution of data and the relationship between different features.
-**3. Feature Engineering:** New features were created based on the existing data to improve the model's performance.
-**4. Model Building:** Various machine learning models were built and evaluated based on their performance.
-**5. Infrastructure Performance:** Amazon EMR consistently outperformed local processing, showcasing the benefits of parallel processing.
+1. **Data Cleaning**: The dataset was cleaned to remove any null values and outliers.
+2. **Exploratory Data Analysis (EDA)**: EDA was performed to understand the distribution of data and the relationship between different features.
+3. **Feature Engineering**: New features were created based on the existing data to improve the model's performance.
+4. **Model Building**: Various machine learning models were built and evaluated based on their performance.
+5. **Infrastructure Performance**: Amazon EMR consistently outperformed local processing, showcasing the benefits of parallel processing.
 
 ## Conclusions
 - The Gradient Boosting Trees Regression Model stood out in terms of prediction accuracy with 0.58 score.
